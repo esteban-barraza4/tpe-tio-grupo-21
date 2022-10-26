@@ -91,3 +91,25 @@ function limpiar(){
     operacion = "";
   }
   
+  function resolver(){
+    let res = 0;
+    switch(operacion){
+      case "+":
+        res = parseFloat(operandoa) + parseFloat(operandob);
+        break;
+  
+      case "-":
+          res = parseFloat(operandoa) - parseFloat(operandob);
+          break;
+  
+      case "*":
+        res = parseFloat(operandoa) * parseFloat(operandob);
+        break;
+  
+      case "/":
+        res = parseFloat(operandoa) / parseFloat(operandob);
+        break;
+    }
+    resetear();
+    resultado.textContent = res;
+  }
