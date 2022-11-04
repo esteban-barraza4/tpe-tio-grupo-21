@@ -1,6 +1,0 @@
-Micaela Cañete Ortiz- HTML
-Jose Agostini - README
-Agustina Barraza - CSS
-Barbara Aguilera- HTML
-Franco Garrido - JS
-Esteban Barraza - JS
